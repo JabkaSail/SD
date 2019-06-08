@@ -1,14 +1,15 @@
 // Определяем наборы изображений
 var images = {
-    'Набовр 1' : [
-        'cafe-3537801_1920.jpg',
-        'louvre-102840_1280.jpg',
-        'hungarian-parliament-77610_1920.jpg'
+    '' : [
+        'wallpapers-skyscrapers-018.jpg',
+        'wallpapers-skyscrapers-023.jpg',
+        '9.jpg'
     ]
 };
-
+ 
 $(document).ready(function(){ // Когда документ готов
     $('#gallery').gallery();
+  
 });
 
 var image1 = new Image();
@@ -18,12 +19,13 @@ var image3 = new Image();
 
 
 $.fn.gallery = function() {
+  
     var self = this;
     var setimgs;
 
     this.each(function() {
         var g = this;
-
+     
         g.load_sets = function(el) { // Функция - загружаем набор изображений
             $.each(images, function(key, value) { 
                 $(el).append('<li><a id="'+key+'" href="#" title="'+key+'">'+key+'</a></li>');
@@ -41,7 +43,7 @@ $.fn.gallery = function() {
         }
 
         g.load_thumbs = function(el, index) { // Функция - загрузка миниатюр
-            $(el).append('<li><img id="' + g.setimgs[index] + '" src="images/thumb_' + g.setimgs[index] + '" /></li>');
+           // $(el).append('<li><img id="' + g.setimgs[index] + '" src="images/thumb_' + g.setimgs[index] + '" /></li>');
 
             var tn = new Image();
             $(tn).load(function() {
@@ -50,10 +52,10 @@ $.fn.gallery = function() {
            var interval =  setInterval(showSlides, 4000);
            var op = 0;
       function showSlides() {
-          console.log(op)
+         
           if (op == 0){
       
-         var i = "cafe-3537801_1920.jpg";
+         var i = "wallpapers-skyscrapers-018.jpg";
               image1.addEventListener('load', function() {
                     $(g).find('#photo').css('background-image', 'url(imgs/'+i+')');
               
@@ -61,11 +63,11 @@ $.fn.gallery = function() {
                     return false;
            
            });
-              image1.src = "imgs/cafe-3537801_1920.jpg";
+              image1.src = "imgs/wallpapers-skyscrapers-018.jpg";
               op=1;
     }
         else if  (op == 1){
-         var i = "louvre-102840_1280.jpg";
+         var i = "wallpapers-skyscrapers-023.jpg";
                image2.addEventListener('load', function() {
                 
                     $(g).find('#photo').css('background-image', 'url(imgs/'+i+')');
@@ -74,11 +76,11 @@ $.fn.gallery = function() {
                     return false;
            
            });
-            image2.src = "imgs/louvre-102840_1280.jpg";
+            image2.src = "imgs/wallpapers-skyscrapers-023.jpg";
              op=2;
     }
         else if (op == 2){
-        var i = "hungarian-parliament-77610_1920.jpg";
+        var i = "9.jpg";
               image3.addEventListener('load', function() {
                 
                     $(g).find('#photo').css('background-image', 'url(imgs/'+i+')');
@@ -87,7 +89,7 @@ $.fn.gallery = function() {
                     return false;
            
            });
-          image3.src = "imgs/hungarian-parliament-77610_1920.jpg";
+          image3.src = "imgs/9.jpg";
              op = 0;
             }
                 };
