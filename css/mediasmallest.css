@@ -1,0 +1,446 @@
+@media (max-width: 700px) {
+    .parallax{
+        margin: 0% !important;
+    }
+    .historyp{
+        margin-top: 0em; 
+     font-size: 1.2em;
+        padding-top: 2em;
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+    
+    .marginmain{
+    margin-top: 30%;
+}
+
+    
+    .teamboxes{
+    min-width: 60%;
+    margin: 0 !important;
+    margin-bottom: 10em;
+    margin-top: 1em !important;
+    margin: auto 1px;
+    border-radius: 2px;
+    padding: 1em;
+    background-color: white;
+    filter: drop-shadow(0px 2px 3px gray);
+    margin-top: 3em;
+    height: 35em;
+}
+    
+     .coloredbarli a{
+         padding: 1em 0em;
+    }
+     .coloredbarli{
+         padding: 0em 4em;
+    }
+    
+    .mainname{
+        font-size: 2.4em;
+    }
+    
+    .p-2{
+        font-size: 1.4em;
+    }
+    
+    .undercounter{
+        font-size: 1em;
+    }
+
+    #navbar{
+        padding: 0;
+    }
+    
+    .navLogoAnother{
+        display: none;
+    }
+    
+{
+ background-color: rgba(0,91,149, 0.85);   
+}
+    
+    .act{
+    color: #009634;
+}
+
+    
+    .lightbox{
+        top: 100px;
+    }
+    
+    .pwords {
+        padding-bottom: 10px;
+    }
+
+    .mycol {
+        width: 100em;
+        border-bottom: none;
+        max-width: 100%;
+    }
+
+    .small{
+        width: 90%;
+    }
+    
+    .projectimage {
+        background-size: cover;
+     display: block;
+    margin-left: auto;
+    margin-right: auto
+    }
+
+    table {
+        width: 90%;
+    }
+
+    .col-sm {
+        padding: 0;
+    }
+
+
+    
+.h4special{
+    color: black;
+    transition: 0.2s;
+    font-size: 1.5em;
+    border-bottom: 2px solid gray;
+    font-weight: normal;
+    /* Убираем жирное начертание */
+    padding-bottom: 5px;
+   
+}
+
+.borderboxspecial {
+  
+   color: gray;
+ 
+    margin: 7%;
+    margin-bottom: 10%;
+    margin-top: 0%;
+}
+
+    .firstnumber {
+        font-size: 2.2em;
+    }
+
+    .mobordesc {
+        display: block;
+        margin-top: -20px;
+    }
+
+    .nondisplayer {
+        -webkit-hyphens: auto;
+        -ms-hyphens: auto;
+        hyphens: auto;
+    }
+
+    .lead {
+        display: none;
+    }
+
+    .blackul a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 10px 55px 10px 55px;
+        text-decoration: none;
+    }
+
+    .navLogo {
+        margin-left: 20%;
+        margin-bottom: -3%;
+    }
+
+    .coloredbarul a {
+        padding: 1em 30px 1em 35px
+    }
+
+    .navLogoAnother {
+        height: 50px;
+        width: 55px;
+        margin: 0;
+        margin-bottom: -5%;
+    }
+
+    .mobileworks {
+
+        display: none;
+ transition: 0.3s;
+    }
+
+    .container {
+        
+    }
+
+    .leadFirst {
+        margin-top: 10%;
+        margin-bottom: 2%;
+        border-top: 0.1rem solid #0067a8;
+        border-bottom: 0.1rem solid #0067a8;
+    }
+
+    .leadSecond {
+        margin-top: 15%;
+        margin-bottom: 5%;
+        border-top: 0.1rem solid #0067a8;
+        border-bottom: 0.1rem solid #0067a8;
+    }
+
+    .leadThird {
+        margin-top: 30%;
+        margin-bottom: 0%;
+        border-top: 0.1rem solid #0067a8;
+        border-bottom: 0.1rem solid #0067a8;
+    }
+
+    .borderbox {
+       width: 100%;
+    padding: 0;
+    margin: 1em;
+    margin-bottom: 10%;
+    }
+
+
+    .borderbox:hover {
+       width: 100%;
+    padding: 0;
+    margin: 1em;
+    margin-bottom: 10%;
+    }
+
+    i {
+        font-size: 2.5em;
+    }
+
+    .mobile {
+        display: none;
+    }
+
+
+    .row {
+        margin: 0;
+        padding: 0;
+    }
+
+    .borderbox1 {
+        border: none;
+        padding: 0;
+        width: 95%;
+    }
+
+    .barico {
+        padding: 10px 90px 10px 90px;
+    }
+    
+      #navbar{
+ background-color: rgba(0,91,149, 0.85);   
+}
+}
+
+
+@media (max-width: 870px) {
+    .projectBoxHalf{
+        max-width: 100%;
+        width: 100%;
+        padding-left: 0;
+        padding-right: 0;
+        display: flex;
+        justify-content: center;
+    }
+
+    .owl-carousel{
+        margin-left: 0;
+    }
+
+    .projectimages{
+        width: 80%;
+    }
+
+    .projectContent{
+        padding-left: 10%;
+        padding-bottom: 5%;
+    }
+
+}
+
+@media (max-width: 1250px) {
+
+    .uppestmargin{
+        margin-top: 4%;
+    }
+
+}
+
+
+@media (max-width: 349px) {
+
+    .uppestmargin{
+        margin: 10% 0 !important;
+    }
+
+    .teamboxes{
+        height: 38em;
+    }
+    
+    .marginmain{
+    margin-top: 8em;
+}
+
+    
+    .coloredbarul a .barico {
+        padding: 1em 55px 1em 55px;
+    }
+
+    .blackul {
+        display: none;
+    }
+
+    .nofullpage {
+        display: block;
+    }
+
+    .full {
+        display: none;
+    }
+
+    .borderboxspecial{
+        width: 95%;
+    }
+    
+    .coloredbarnav{
+         
+        
+    }
+    
+}
+
+
+
+@media (min-width: 590px) and (max-width: 760) {
+    .coloredbarul a {
+        padding: 10px 275px 10px 275px;
+    }
+
+}
+
+
+
+@media (min-width: 700px) {
+    
+    .teamboxes{
+        margin: 5px !important;
+        height: 30em;
+    }
+    
+    .p-2{font-size: 1.5em;}
+    
+    .firstnumber{
+        font-size: 5em;
+    }
+    .navLogoAnother {
+      /*  margin-left: 25%; */
+        width: 180px;
+        height: 60px;
+        margin-bottom: 8%;
+    }
+    
+    .coloredbarli a{
+            font-size: 0.7em;
+        padding: 30px 5px 30px 5px;
+    }
+    
+    .marginmain{
+    margin-top: 18em;
+}
+
+
+    .barico {
+        display: none;
+    }
+
+    .mobilehrefs {
+        display: block;
+    }
+}
+
+@media (min-width: 760px) {
+    
+    .teamboxes{
+        height: 44em;
+    }
+    
+    .navLogoAnother {
+      /*  margin-left: 25%; */
+        width: 180px;
+        height: 60px;
+    }
+    
+    .coloredbarli a{
+            font-size: 0.7em;
+        padding: 30px 10px 30px 10px;
+    }
+    
+    .marginmain{
+    margin-top: 18em;
+}
+
+
+    .barico {
+        display: none;
+    }
+
+    .mobilehrefs {
+        display: block;
+    }
+}
+
+@media (max-width: 770px) {
+
+    .uppestmargin{
+        margin: 5% 0;
+    }
+
+}
+
+@media (max-width: 550px) {
+
+    .h12{
+        font-size: 2em;
+    }
+
+}
+
+@media (max-width: 450px) {
+
+    .h12{
+        font-size: 1.8em;
+    }
+
+    .projectH4{
+        font-size: 1.3em;
+    }
+
+}
+
+@media (max-width: 400px) {
+
+    .h12{
+        font-size: 1.5em;
+    }
+
+    .projectH4{
+        font-size: 1.25em !important;
+    }
+
+}
+
+@media (min-width: 940px) {
+    .teamboxes{
+            height: 36em;
+    }
+    .coloredbarli a{
+            font-size: 1em;
+        padding: 30px 10px 30px 10px;
+    }
+
+}
